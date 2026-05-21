@@ -8,7 +8,7 @@ The project was tested successfully on:
 	•	New OPPO model (e.g.: Oppo A5)
 
 The recovery process was validated with:
-	•	46,000+ SMS messages
+	•	45,000+ SMS messages
 	•	1,500+ call logs
 
 Features
@@ -49,19 +49,19 @@ Copy the .vmsg backup files from the old phone to your computer.
 
 2. Run the SMS converter
 
-python3 oppo_vmsg_to_xml.py
+python3 vmsg2xml.py
 
 The script will:
 	•	detect encoding automatically
 	•	decode SMS contents
 	•	merge all messages into a single XML file
 Output:
-sms.xml
+smss_converted.xml
 
 3. Transfer the XML file to Android
 Copy:
 
-sms.xml
+smss_converted.xml
 
 to your Android phone.
 Recommended locations:
@@ -69,7 +69,7 @@ Recommended locations:
 	•	Internal Storage root
 
 4. Restore messages
-Install: SMS Backup & Restore
+Install: SMS Backup & Restore (https://play.google.com/store/apps/details?id=com.riteshsahu.SMSBackupRestore&hl=en&gl=US&pli=1)
 Then:
 	1	Open the app
 	2	Select Restore
@@ -88,7 +88,7 @@ Example OPPO structure:
 
 2. Run the call log converter
 
-python3 oppo_calls_to_xml.py
+python3 convert_calls.py
 
 Output:
 
@@ -115,7 +115,7 @@ Successful migration from:
 	•	failed Google Cloud restore
 	•	inaccessible Android migration backups
 Recovered successfully:
-	•	46K+ SMS
+	•	45K+ SMS
 	•	1500+ call logs
 
 Disclaimer
