@@ -168,4 +168,4 @@ xml += "</smses>"
 with open("smss_converted.xml", "w", encoding="utf-8") as f:
     f.write(xml)
 
-print(f"Done! Exported {len(messages_xml)} SMS messages to sms.xml")
+print(f"Done! Exported {len(messages_xml)} SMS messages to sms_converted.xml")
