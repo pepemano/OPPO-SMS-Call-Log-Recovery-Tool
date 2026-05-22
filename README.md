@@ -161,3 +161,6 @@ Recovered successfully:
 This tool was created for personal backup recovery purposes.<br>
 Always create backups before restoring or modifying SMS/call log databases.
 
+<h2>DEMO</h2>
+Click file -> vmsg&calls2xlm_DEMO.ipynb
+
