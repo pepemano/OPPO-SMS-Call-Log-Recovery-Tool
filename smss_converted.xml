@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<smses count="3" backup_set="3ff83320-2c57-44c2-bdd5-7eae6758fcef" backup_date="1711616976109" type="full">
+<sms protocol="0" address="LINE" date="1512804181000" type="1" subject="null" body="LINE: marca 4918 en la aplicacion en los proximos 30 minutos." toa="null" sc_toa="null" service_center="null" read="1" status="-1" locked="0" date_sent="1512804181000" sub_id="-1" readable_date="09 Dec 2017 08:23:01" contact_name="LINE" />
+<sms protocol="0" address="Whatsapp" date="1512946679000" type="1" subject="null" body="WhatsApp code 223-863.
+
+You can also tap on this link to verify your phone: v.whatsapp.com/223863" toa="null" sc_toa="null" service_center="null" read="1" status="-1" locked="0" date_sent="1512946679000" sub_id="-1" readable_date="10 Dec 2017 23:57:59" contact_name="Whatsapp" />
+<sms protocol="0" address="ServiRed" date="1512990364000" type="1" subject="null" body="WiZink: Compra por internet. Clave para autorizar la compra de 20,00 EUR en LOTERIAS Y APUESTAS DEL E: 348682." toa="null" sc_toa="null" service_center="null" read="1" status="-1" locked="0" date_sent="1512990364000" sub_id="-1" readable_date="11 Dec 2017 12:06:04" contact_name="ServiRed" />
+</smses>
